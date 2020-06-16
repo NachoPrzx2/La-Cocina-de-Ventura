@@ -1,0 +1,20 @@
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La Cocina de Ventura2.csprojAssemblyReference.cache
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Properties.Resources.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La Cocina de Ventura2.csproj.GenerateResource.cache
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La Cocina de Ventura2.csproj.CoreCompileInputs.cache
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\bin\Debug\La Cocina de Ventura2.exe.config
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\bin\Debug\La Cocina de Ventura2.exe
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\bin\Debug\La Cocina de Ventura2.pdb
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La Cocina de Ventura2.exe
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La Cocina de Ventura2.pdb
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Login.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Form2.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Pruebas.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Menu.GorditasMenu.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Menu.QuesadillasMenu.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Menu.SopesTacosMenu.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Menu.BebidasMenu.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Menu.EspecialesMenu.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Menu.TortasMenu.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Gerente.Precios.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Menu.Gerente.resources
