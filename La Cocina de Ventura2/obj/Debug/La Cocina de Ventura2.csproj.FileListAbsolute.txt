@@ -18,3 +18,6 @@ C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debu
 C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Menu.TortasMenu.resources
 C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Gerente.Precios.resources
 C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Menu.Gerente.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Gerente.Reportes.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Gerente.Ventas.resources
+C:\Users\elpel\source\repos\La Cocina de Ventura2\La Cocina de Ventura2\obj\Debug\La_Cocina_de_Ventura2.Gerente.Estadisticas.resources

@@ -63,6 +63,16 @@ namespace La_Cocina_de_Ventura2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap excel {
+            get {
+                object obj = ResourceManager.GetObject("excel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Grupo_1 {
             get {
                 object obj = ResourceManager.GetObject("Grupo 1", resourceCulture);
@@ -136,6 +146,26 @@ namespace La_Cocina_de_Ventura2.Properties {
         internal static System.Drawing.Bitmap icons8_editar_usuario_masculino_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-editar-usuario-masculino-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_guardar_cerrar_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-guardar-cerrar-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_imprimir_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-imprimir-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

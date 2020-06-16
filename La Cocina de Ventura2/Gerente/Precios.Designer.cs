@@ -44,12 +44,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PGorditasComal = new System.Windows.Forms.NumericUpDown();
             this.PGorditasDoradas = new System.Windows.Forms.NumericUpDown();
             this.PQuesadillasComal = new System.Windows.Forms.NumericUpDown();
@@ -70,12 +64,13 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PGorditasComal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PGorditasDoradas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PQuesadillasComal)).BeginInit();
@@ -92,6 +87,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.PNescafe)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBolilloGuisado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PChileRelleno)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -254,6 +255,298 @@
             this.label16.TabIndex = 41;
             this.label16.Text = "Chile Relleno";
             // 
+            // PGorditasComal
+            // 
+            this.PGorditasComal.DecimalPlaces = 1;
+            this.PGorditasComal.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PGorditasComal.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PGorditasComal.Location = new System.Drawing.Point(414, 24);
+            this.PGorditasComal.Name = "PGorditasComal";
+            this.PGorditasComal.Size = new System.Drawing.Size(67, 44);
+            this.PGorditasComal.TabIndex = 48;
+            this.PGorditasComal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PGorditasDoradas
+            // 
+            this.PGorditasDoradas.DecimalPlaces = 1;
+            this.PGorditasDoradas.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PGorditasDoradas.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PGorditasDoradas.Location = new System.Drawing.Point(414, 79);
+            this.PGorditasDoradas.Name = "PGorditasDoradas";
+            this.PGorditasDoradas.Size = new System.Drawing.Size(67, 44);
+            this.PGorditasDoradas.TabIndex = 49;
+            this.PGorditasDoradas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PQuesadillasComal
+            // 
+            this.PQuesadillasComal.DecimalPlaces = 1;
+            this.PQuesadillasComal.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PQuesadillasComal.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PQuesadillasComal.Location = new System.Drawing.Point(414, 157);
+            this.PQuesadillasComal.Name = "PQuesadillasComal";
+            this.PQuesadillasComal.Size = new System.Drawing.Size(67, 44);
+            this.PQuesadillasComal.TabIndex = 50;
+            this.PQuesadillasComal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // numericUpDown4
+            // 
+            this.numericUpDown4.DecimalPlaces = 1;
+            this.numericUpDown4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown4.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.numericUpDown4.Location = new System.Drawing.Point(414, 216);
+            this.numericUpDown4.Name = "numericUpDown4";
+            this.numericUpDown4.Size = new System.Drawing.Size(67, 44);
+            this.numericUpDown4.TabIndex = 51;
+            this.numericUpDown4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PSopeSencillo
+            // 
+            this.PSopeSencillo.DecimalPlaces = 1;
+            this.PSopeSencillo.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PSopeSencillo.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PSopeSencillo.Location = new System.Drawing.Point(414, 289);
+            this.PSopeSencillo.Name = "PSopeSencillo";
+            this.PSopeSencillo.Size = new System.Drawing.Size(67, 44);
+            this.PSopeSencillo.TabIndex = 52;
+            this.PSopeSencillo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PSopeGuisado
+            // 
+            this.PSopeGuisado.DecimalPlaces = 1;
+            this.PSopeGuisado.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PSopeGuisado.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PSopeGuisado.Location = new System.Drawing.Point(414, 344);
+            this.PSopeGuisado.Name = "PSopeGuisado";
+            this.PSopeGuisado.Size = new System.Drawing.Size(67, 44);
+            this.PSopeGuisado.TabIndex = 53;
+            this.PSopeGuisado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PTacos
+            // 
+            this.PTacos.DecimalPlaces = 1;
+            this.PTacos.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PTacos.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PTacos.Location = new System.Drawing.Point(414, 400);
+            this.PTacos.Name = "PTacos";
+            this.PTacos.Size = new System.Drawing.Size(67, 44);
+            this.PTacos.TabIndex = 54;
+            this.PTacos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PPlatoChico
+            // 
+            this.PPlatoChico.DecimalPlaces = 1;
+            this.PPlatoChico.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PPlatoChico.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PPlatoChico.Location = new System.Drawing.Point(414, 455);
+            this.PPlatoChico.Name = "PPlatoChico";
+            this.PPlatoChico.Size = new System.Drawing.Size(67, 44);
+            this.PPlatoChico.TabIndex = 55;
+            this.PPlatoChico.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PPlatoGrande
+            // 
+            this.PPlatoGrande.DecimalPlaces = 1;
+            this.PPlatoGrande.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PPlatoGrande.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PPlatoGrande.Location = new System.Drawing.Point(414, 511);
+            this.PPlatoGrande.Name = "PPlatoGrande";
+            this.PPlatoGrande.Size = new System.Drawing.Size(67, 44);
+            this.PPlatoGrande.TabIndex = 56;
+            this.PPlatoGrande.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PRefrescos
+            // 
+            this.PRefrescos.DecimalPlaces = 1;
+            this.PRefrescos.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PRefrescos.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PRefrescos.Location = new System.Drawing.Point(913, 24);
+            this.PRefrescos.Name = "PRefrescos";
+            this.PRefrescos.Size = new System.Drawing.Size(67, 44);
+            this.PRefrescos.TabIndex = 57;
+            this.PRefrescos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PDesechales
+            // 
+            this.PDesechales.DecimalPlaces = 1;
+            this.PDesechales.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PDesechales.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PDesechales.Location = new System.Drawing.Point(913, 83);
+            this.PDesechales.Name = "PDesechales";
+            this.PDesechales.Size = new System.Drawing.Size(67, 44);
+            this.PDesechales.TabIndex = 58;
+            this.PDesechales.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PCocaDesechable
+            // 
+            this.PCocaDesechable.DecimalPlaces = 1;
+            this.PCocaDesechable.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PCocaDesechable.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PCocaDesechable.Location = new System.Drawing.Point(913, 139);
+            this.PCocaDesechable.Name = "PCocaDesechable";
+            this.PCocaDesechable.Size = new System.Drawing.Size(67, 44);
+            this.PCocaDesechable.TabIndex = 59;
+            this.PCocaDesechable.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PBebidasCalientes
+            // 
+            this.PBebidasCalientes.DecimalPlaces = 1;
+            this.PBebidasCalientes.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PBebidasCalientes.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PBebidasCalientes.Location = new System.Drawing.Point(913, 194);
+            this.PBebidasCalientes.Name = "PBebidasCalientes";
+            this.PBebidasCalientes.Size = new System.Drawing.Size(67, 44);
+            this.PBebidasCalientes.TabIndex = 60;
+            this.PBebidasCalientes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PNescafe
+            // 
+            this.PNescafe.DecimalPlaces = 1;
+            this.PNescafe.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PNescafe.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PNescafe.Location = new System.Drawing.Point(913, 250);
+            this.PNescafe.Name = "PNescafe";
+            this.PNescafe.Size = new System.Drawing.Size(67, 44);
+            this.PNescafe.TabIndex = 61;
+            this.PNescafe.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PBolilloGuisado
+            // 
+            this.PBolilloGuisado.DecimalPlaces = 1;
+            this.PBolilloGuisado.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PBolilloGuisado.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PBolilloGuisado.Location = new System.Drawing.Point(913, 314);
+            this.PBolilloGuisado.Name = "PBolilloGuisado";
+            this.PBolilloGuisado.Size = new System.Drawing.Size(67, 44);
+            this.PBolilloGuisado.TabIndex = 62;
+            this.PBolilloGuisado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // PChileRelleno
+            // 
+            this.PChileRelleno.DecimalPlaces = 1;
+            this.PChileRelleno.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PChileRelleno.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.PChileRelleno.Location = new System.Drawing.Point(913, 420);
+            this.PChileRelleno.Name = "PChileRelleno";
+            this.PChileRelleno.Size = new System.Drawing.Size(67, 44);
+            this.PChileRelleno.TabIndex = 63;
+            this.PChileRelleno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(7, 126);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(472, 17);
+            this.label17.TabIndex = 64;
+            this.label17.Text = "__________________________________________________________";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(7, 261);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(472, 17);
+            this.label18.TabIndex = 65;
+            this.label18.Text = "__________________________________________________________";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(508, 288);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(472, 17);
+            this.label19.TabIndex = 66;
+            this.label19.Text = "__________________________________________________________";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(508, 391);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(472, 17);
+            this.label20.TabIndex = 67;
+            this.label20.Text = "__________________________________________________________";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::La_Cocina_de_Ventura2.Properties.Resources.icons8_guardar_cerrar_48;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(362, 635);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(277, 69);
+            this.button1.TabIndex = 68;
+            this.button1.Text = "Guardar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::La_Cocina_de_Ventura2.Properties.Resources.Intersección_12;
@@ -314,174 +607,11 @@
             this.pictureBox1.TabIndex = 42;
             this.pictureBox1.TabStop = false;
             // 
-            // PGorditasComal
-            // 
-            this.PGorditasComal.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PGorditasComal.Location = new System.Drawing.Point(428, 24);
-            this.PGorditasComal.Name = "PGorditasComal";
-            this.PGorditasComal.Size = new System.Drawing.Size(53, 44);
-            this.PGorditasComal.TabIndex = 48;
-            // 
-            // PGorditasDoradas
-            // 
-            this.PGorditasDoradas.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PGorditasDoradas.Location = new System.Drawing.Point(428, 79);
-            this.PGorditasDoradas.Name = "PGorditasDoradas";
-            this.PGorditasDoradas.Size = new System.Drawing.Size(53, 44);
-            this.PGorditasDoradas.TabIndex = 49;
-            // 
-            // PQuesadillasComal
-            // 
-            this.PQuesadillasComal.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PQuesadillasComal.Location = new System.Drawing.Point(428, 157);
-            this.PQuesadillasComal.Name = "PQuesadillasComal";
-            this.PQuesadillasComal.Size = new System.Drawing.Size(53, 44);
-            this.PQuesadillasComal.TabIndex = 50;
-            // 
-            // numericUpDown4
-            // 
-            this.numericUpDown4.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown4.Location = new System.Drawing.Point(428, 216);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(53, 44);
-            this.numericUpDown4.TabIndex = 51;
-            // 
-            // PSopeSencillo
-            // 
-            this.PSopeSencillo.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PSopeSencillo.Location = new System.Drawing.Point(428, 289);
-            this.PSopeSencillo.Name = "PSopeSencillo";
-            this.PSopeSencillo.Size = new System.Drawing.Size(53, 44);
-            this.PSopeSencillo.TabIndex = 52;
-            // 
-            // PSopeGuisado
-            // 
-            this.PSopeGuisado.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PSopeGuisado.Location = new System.Drawing.Point(428, 344);
-            this.PSopeGuisado.Name = "PSopeGuisado";
-            this.PSopeGuisado.Size = new System.Drawing.Size(53, 44);
-            this.PSopeGuisado.TabIndex = 53;
-            // 
-            // PTacos
-            // 
-            this.PTacos.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PTacos.Location = new System.Drawing.Point(428, 400);
-            this.PTacos.Name = "PTacos";
-            this.PTacos.Size = new System.Drawing.Size(53, 44);
-            this.PTacos.TabIndex = 54;
-            // 
-            // PPlatoChico
-            // 
-            this.PPlatoChico.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PPlatoChico.Location = new System.Drawing.Point(428, 455);
-            this.PPlatoChico.Name = "PPlatoChico";
-            this.PPlatoChico.Size = new System.Drawing.Size(53, 44);
-            this.PPlatoChico.TabIndex = 55;
-            // 
-            // PPlatoGrande
-            // 
-            this.PPlatoGrande.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PPlatoGrande.Location = new System.Drawing.Point(428, 511);
-            this.PPlatoGrande.Name = "PPlatoGrande";
-            this.PPlatoGrande.Size = new System.Drawing.Size(53, 44);
-            this.PPlatoGrande.TabIndex = 56;
-            // 
-            // PRefrescos
-            // 
-            this.PRefrescos.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PRefrescos.Location = new System.Drawing.Point(927, 24);
-            this.PRefrescos.Name = "PRefrescos";
-            this.PRefrescos.Size = new System.Drawing.Size(53, 44);
-            this.PRefrescos.TabIndex = 57;
-            // 
-            // PDesechales
-            // 
-            this.PDesechales.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PDesechales.Location = new System.Drawing.Point(927, 83);
-            this.PDesechales.Name = "PDesechales";
-            this.PDesechales.Size = new System.Drawing.Size(53, 44);
-            this.PDesechales.TabIndex = 58;
-            // 
-            // PCocaDesechable
-            // 
-            this.PCocaDesechable.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PCocaDesechable.Location = new System.Drawing.Point(927, 139);
-            this.PCocaDesechable.Name = "PCocaDesechable";
-            this.PCocaDesechable.Size = new System.Drawing.Size(53, 44);
-            this.PCocaDesechable.TabIndex = 59;
-            // 
-            // PBebidasCalientes
-            // 
-            this.PBebidasCalientes.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PBebidasCalientes.Location = new System.Drawing.Point(927, 194);
-            this.PBebidasCalientes.Name = "PBebidasCalientes";
-            this.PBebidasCalientes.Size = new System.Drawing.Size(53, 44);
-            this.PBebidasCalientes.TabIndex = 60;
-            // 
-            // PNescafe
-            // 
-            this.PNescafe.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PNescafe.Location = new System.Drawing.Point(927, 250);
-            this.PNescafe.Name = "PNescafe";
-            this.PNescafe.Size = new System.Drawing.Size(53, 44);
-            this.PNescafe.TabIndex = 61;
-            // 
-            // PBolilloGuisado
-            // 
-            this.PBolilloGuisado.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PBolilloGuisado.Location = new System.Drawing.Point(927, 314);
-            this.PBolilloGuisado.Name = "PBolilloGuisado";
-            this.PBolilloGuisado.Size = new System.Drawing.Size(53, 44);
-            this.PBolilloGuisado.TabIndex = 62;
-            // 
-            // PChileRelleno
-            // 
-            this.PChileRelleno.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PChileRelleno.Location = new System.Drawing.Point(927, 420);
-            this.PChileRelleno.Name = "PChileRelleno";
-            this.PChileRelleno.Size = new System.Drawing.Size(53, 44);
-            this.PChileRelleno.TabIndex = 63;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(7, 126);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(472, 17);
-            this.label17.TabIndex = 64;
-            this.label17.Text = "__________________________________________________________";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(7, 261);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(472, 17);
-            this.label18.TabIndex = 65;
-            this.label18.Text = "__________________________________________________________";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(508, 288);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(472, 17);
-            this.label19.TabIndex = 66;
-            this.label19.Text = "__________________________________________________________";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(508, 391);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(472, 17);
-            this.label20.TabIndex = 67;
-            this.label20.Text = "__________________________________________________________";
-            // 
             // Precios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.PNescafe);
             this.Controls.Add(this.label19);
@@ -526,12 +656,6 @@
             this.Controls.Add(this.label4);
             this.Name = "Precios";
             this.Size = new System.Drawing.Size(994, 722);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PGorditasComal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PGorditasDoradas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PQuesadillasComal)).EndInit();
@@ -548,6 +672,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.PNescafe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBolilloGuisado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PChileRelleno)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -597,5 +727,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -58,11 +58,29 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gerente\Estadisticas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gerente\Estadisticas.Designer.cs">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gerente\Precios.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Gerente\Precios.Designer.cs">
       <DependentUpon>Precios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerente\Reportes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gerente\Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerente\Ventas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gerente\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu\BebidasMenu.cs">
       <SubType>UserControl</SubType>
@@ -120,8 +138,17 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gerente\Estadisticas.resx">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gerente\Precios.resx">
       <DependentUpon>Precios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerente\Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerente\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\BebidasMenu.resx">
       <DependentUpon>BebidasMenu.cs</DependentUpon>
@@ -232,6 +259,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Intersección 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-imprimir-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-guardar-cerrar-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

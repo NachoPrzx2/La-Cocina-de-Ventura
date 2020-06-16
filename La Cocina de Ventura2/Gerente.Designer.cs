@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ReportesB = new System.Windows.Forms.Button();
+            this.EstadisticasB = new System.Windows.Forms.Button();
+            this.PreciosB = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.salir = new System.Windows.Forms.Button();
             this.ContenedorGerente = new System.Windows.Forms.Panel();
-            this.PreciosB = new System.Windows.Forms.Button();
-            this.EstadisticasB = new System.Windows.Forms.Button();
-            this.ReportesB = new System.Windows.Forms.Button();
+            this.VentasB = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -44,6 +45,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.VentasB);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.ReportesB);
             this.panel1.Controls.Add(this.EstadisticasB);
@@ -53,6 +55,48 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(272, 771);
             this.panel1.TabIndex = 0;
+            // 
+            // ReportesB
+            // 
+            this.ReportesB.FlatAppearance.BorderSize = 0;
+            this.ReportesB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReportesB.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReportesB.ForeColor = System.Drawing.Color.White;
+            this.ReportesB.Location = new System.Drawing.Point(0, 409);
+            this.ReportesB.Name = "ReportesB";
+            this.ReportesB.Size = new System.Drawing.Size(272, 87);
+            this.ReportesB.TabIndex = 2;
+            this.ReportesB.Text = "Reportes";
+            this.ReportesB.UseVisualStyleBackColor = true;
+            this.ReportesB.Click += new System.EventHandler(this.ReportesB_Click);
+            // 
+            // EstadisticasB
+            // 
+            this.EstadisticasB.FlatAppearance.BorderSize = 0;
+            this.EstadisticasB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EstadisticasB.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EstadisticasB.ForeColor = System.Drawing.Color.White;
+            this.EstadisticasB.Location = new System.Drawing.Point(0, 322);
+            this.EstadisticasB.Name = "EstadisticasB";
+            this.EstadisticasB.Size = new System.Drawing.Size(272, 87);
+            this.EstadisticasB.TabIndex = 1;
+            this.EstadisticasB.Text = "Estadisticas";
+            this.EstadisticasB.UseVisualStyleBackColor = true;
+            this.EstadisticasB.Click += new System.EventHandler(this.EstadisticasB_Click);
+            // 
+            // PreciosB
+            // 
+            this.PreciosB.FlatAppearance.BorderSize = 0;
+            this.PreciosB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PreciosB.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PreciosB.ForeColor = System.Drawing.Color.White;
+            this.PreciosB.Location = new System.Drawing.Point(0, 237);
+            this.PreciosB.Name = "PreciosB";
+            this.PreciosB.Size = new System.Drawing.Size(272, 87);
+            this.PreciosB.TabIndex = 0;
+            this.PreciosB.Text = "Precios";
+            this.PreciosB.UseVisualStyleBackColor = true;
+            this.PreciosB.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -86,45 +130,19 @@
             this.ContenedorGerente.Size = new System.Drawing.Size(994, 722);
             this.ContenedorGerente.TabIndex = 2;
             // 
-            // PreciosB
+            // VentasB
             // 
-            this.PreciosB.FlatAppearance.BorderSize = 0;
-            this.PreciosB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PreciosB.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PreciosB.ForeColor = System.Drawing.Color.White;
-            this.PreciosB.Location = new System.Drawing.Point(0, 237);
-            this.PreciosB.Name = "PreciosB";
-            this.PreciosB.Size = new System.Drawing.Size(272, 87);
-            this.PreciosB.TabIndex = 0;
-            this.PreciosB.Text = "Precios";
-            this.PreciosB.UseVisualStyleBackColor = true;
-            this.PreciosB.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // EstadisticasB
-            // 
-            this.EstadisticasB.FlatAppearance.BorderSize = 0;
-            this.EstadisticasB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EstadisticasB.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EstadisticasB.ForeColor = System.Drawing.Color.White;
-            this.EstadisticasB.Location = new System.Drawing.Point(0, 322);
-            this.EstadisticasB.Name = "EstadisticasB";
-            this.EstadisticasB.Size = new System.Drawing.Size(272, 87);
-            this.EstadisticasB.TabIndex = 1;
-            this.EstadisticasB.Text = "Estadisticas";
-            this.EstadisticasB.UseVisualStyleBackColor = true;
-            // 
-            // ReportesB
-            // 
-            this.ReportesB.FlatAppearance.BorderSize = 0;
-            this.ReportesB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ReportesB.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReportesB.ForeColor = System.Drawing.Color.White;
-            this.ReportesB.Location = new System.Drawing.Point(0, 409);
-            this.ReportesB.Name = "ReportesB";
-            this.ReportesB.Size = new System.Drawing.Size(272, 87);
-            this.ReportesB.TabIndex = 2;
-            this.ReportesB.Text = "Reportes";
-            this.ReportesB.UseVisualStyleBackColor = true;
+            this.VentasB.FlatAppearance.BorderSize = 0;
+            this.VentasB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.VentasB.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VentasB.ForeColor = System.Drawing.Color.White;
+            this.VentasB.Location = new System.Drawing.Point(0, 496);
+            this.VentasB.Name = "VentasB";
+            this.VentasB.Size = new System.Drawing.Size(272, 87);
+            this.VentasB.TabIndex = 4;
+            this.VentasB.Text = "Ventas";
+            this.VentasB.UseVisualStyleBackColor = true;
+            this.VentasB.Click += new System.EventHandler(this.VentasB_Click);
             // 
             // pictureBox1
             // 
@@ -165,5 +183,6 @@
         private System.Windows.Forms.Button ReportesB;
         private System.Windows.Forms.Button EstadisticasB;
         private System.Windows.Forms.Button PreciosB;
+        private System.Windows.Forms.Button VentasB;
     }
 }
